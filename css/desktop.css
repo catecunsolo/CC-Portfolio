@@ -1,0 +1,23 @@
+@media (min-width: 992px) {
+  .nav-menu a,
+  .nav-menu a:focus {
+    width: 56px;
+  }
+  .nav-menu a span,
+  .nav-menu a:focus span {
+    display: none;
+    color: #fff;
+  }
+  .nav-menu {
+    position: fixed;
+    left: 10px;
+    top: 25%;
+    z-index: 9998;
+    height: 100vh;
+  }
+
+  #about {
+    margin: 20vh 2000px;
+    flex-direction: row;
+  }
+}
