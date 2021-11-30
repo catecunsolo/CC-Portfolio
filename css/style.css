@@ -382,6 +382,10 @@ a:hover {
   margin: auto;
 }
 
+.container-skills {
+  margin-top: 8px;
+}
+
 .icon-skills {
   size: 64px;
   font-size: 64px;
