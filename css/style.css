@@ -112,6 +112,24 @@ header {
   display: block;
 }
 
+@media (min-width: 992px) {
+  .nav-menu a,
+  .nav-menu a:focus {
+    width: 56px;
+  }
+  .nav-menu a span,
+  .nav-menu a:focus span {
+    display: none;
+    color: #fff;
+  }
+  .nav-menu {
+    position: fixed;
+    left: 10px;
+    top: 25%;
+    z-index: 9998;
+    height: 100vh;
+  }
+}
 /**
 * Mobile Navigation 
 */
@@ -158,6 +176,7 @@ header {
   align-content: center;
 }
 
+/* SKILLS */
 #skills {
   display: flex;
   flex-direction: column;
@@ -165,6 +184,80 @@ header {
 }
 #skills h2 {
   margin: auto;
+}
+
+.icon-skills {
+  size: 64px;
+  font-size: 64px;
+}
+
+.ul-skills {
+  list-style-type: none;
+}
+.ul-skills li {
+  margin-top: 10px;
+}
+
+/* PORTFOLIO */
+#portfolio {
+  display: flex;
+  flex-direction: column;
+}
+#portfolio h2 {
+  margin: auto;
+}
+
+/* .card-container {
+  display: flex;
+  flex-direction: column;
+} */
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  box-sizing: border-box;
+  /* width: 100%;
+  margin: 10px 20vh; */
+}
+.card {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 2rem;
+  box-shadow: 0px 1rem 1.5rem rgba(black, 0.5);
+  align-content: center;
+  margin: 5px;
+}
+
+.banner1 {
+  background-image: url(../images/tacunso.png);
+}
+.banner2 {
+  background-image: url(../images/musikt.png);
+}
+.banner3 {
+  background-image: url(../images/librarygate.png);
+}
+.banner {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 11rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.fa-github {
+  box-sizing: border-box;
+  font-size: 30px;
+}
+.github {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
 }
 
 /*------------FOOTER----------*/
