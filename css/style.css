@@ -198,6 +198,19 @@ header {
   margin-top: 10px;
 }
 
+#bt {
+  color: rgb(120, 64, 172);
+}
+#java {
+  color: rgb(190, 5, 5);
+}
+#css-skill {
+  color: rgb(0, 119, 255);
+}
+#html-skill {
+  color: orangered;
+}
+
 /* PORTFOLIO */
 #portfolio {
   display: flex;
@@ -258,6 +271,15 @@ header {
   display: inline-block;
   width: 100%;
   text-align: center;
+}
+
+.p-portfolio {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  line-height: 1.3;
+  font-family: Montserrat-Regular;
+  margin: 8px;
 }
 
 /*------------FOOTER----------*/
